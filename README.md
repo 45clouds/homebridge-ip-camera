@@ -18,8 +18,8 @@ IP camera plugin for [Homebridge](https://github.com/nfarina/homebridge)
         {
           "name": "Name of the camera eg. GARAGE",
           "videoConfig": {
-          	"source": "-re -i rtsp://myfancy_rtsp_stream",
-          	"image": "-i http://faster_still_image_grab_url/this_is_optional.jpg",
+          	"source": "-re -i rtsp://10.0.19.10:554/Streaming/Channels/101",
+          	"stillImageSource": "-i http://10.0.19.10/Streaming/channels/101/picture",
           	"maxStreams": 2,
           	"maxWidth": 1280,
           	"maxHeight": 720,
